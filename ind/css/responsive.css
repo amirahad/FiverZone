@@ -1,0 +1,296 @@
+/* Extra small devices (portrait phones, less than 576px) */ 
+@media(min-width: 320px) and (max-width: 575px) {    
+    .header_section{
+        padding-top: 5px;
+    }
+    .slick-slide {
+        height: 0px!important;
+    }
+    .slick-slide.slick-active {
+        height: 100% !important;  
+    }
+    .slider_item{
+        padding-bottom: 40px;
+    }
+	.hero_section_sound {
+		background: #fd5400;
+	}
+	.hero_section_yt {
+		background: #FF0000;
+	}
+    .fb_hero_slider{
+        background-image: inherit;
+    }
+    .header_section .container{
+        padding-left: 0;
+        padding-right: 0; 
+    }
+    .navbar-light .navbar-toggler {
+        margin-right: 15px;
+    }
+    .header_section .navbar-brand img{
+        margin-left: 15px;
+    }
+    .header_section ul {
+        background: #F2F3F8 !important;
+        border-top: 1px solid rgba(204, 204, 204, 0.56);
+        padding-bottom: 10px;
+    }
+    .header_section .navbar-nav .nav-item .nav-link {
+        padding: 10px 15px;
+    }
+    .header_section .navbar-nav .nav-item ul{
+        width: 100%;
+    }
+    .header_section .navbar-nav .nav-item ul li a{
+        background: #fff!important;
+    }
+    .header_section .navbar-nav .nav-item ul li a:hover{
+        background: #F2F3F8!important;
+    }
+    .header_section .hvr-grow-shadow{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        top: 0px;
+    }
+    .hero_section{
+        padding-bottom: 30px;
+    }
+    .widgts{
+        margin-top: 25px;
+    }
+    .ftr_copy p{
+        width: 100%;
+    }
+    .fb_hero_txt h5{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .fb_hero_txt h1{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .hero_img{
+        margin-top: 35px;
+    }
+    .fb_hero_txt a img{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .contact_lft h2,
+    .recent_post_head h2,
+    .services_txt h2,
+    .go_viral_txt h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .go_viral_txt p{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .go_viral_box{
+        margin: 0!important;
+        margin-bottom: 25px!important;
+    }
+    .services_txt .media{
+        margin-left: 0px;
+    }
+    .recent_post_tab_head ul li a{
+        padding: 0;
+        margin: 10px 10px;
+    }
+    .contact_form{
+        margin: 20px 0px;
+        padding: 15px;
+    }
+    .contact_form .submit-bttn{
+        text-align: center;
+    }
+    .contact_form .btn-submit {
+        padding: 13px 24px;
+        font-size: 14px;
+    }
+    .go_viral_txt {
+        text-align: center;
+    }
+    .d_flex{
+        flex-direction: column;
+    }
+    .d_flex > div{
+        margin-bottom: 30px;
+    }
+    .hero_section_insta {
+        background-image: inherit; 
+    }
+     
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .header_section{
+        padding-top: 5px;
+    } 
+    .slick-slide {
+        height: 0px!important;
+    }
+    .slick-slide.slick-active {
+        height: 100% !important;  
+    }
+    .slider_item{
+        padding-bottom: 40px;
+    }
+    .fb_hero_slider{
+        background-image: inherit;
+    }
+    .header_section .container{
+        padding-left: 0;
+        padding-right: 0; 
+    }
+    .navbar-light .navbar-toggler {
+        margin-right: 15px;
+    }
+    .header_section .navbar-brand img{
+        margin-left: 15px;
+    }
+    .header_section ul {
+        background: #F2F3F8 !important;
+        border-top: 1px solid rgba(204, 204, 204, 0.56);
+        padding-bottom: 10px;
+    }
+    .header_section .navbar-nav .nav-item .nav-link {
+        padding: 10px 15px;
+    }
+    .header_section .navbar-nav .nav-item ul{
+        width: 100%;
+    }
+    .header_section .navbar-nav .nav-item ul li a{
+        background: #fff!important;
+    }
+    .header_section .navbar-nav .nav-item ul li a:hover{
+        background: #F2F3F8!important;
+    }
+    .header_section .hvr-grow-shadow{
+        width: 94%;
+        display: block;
+        margin: 0 auto;
+        top: 0px;
+    }
+     
+    .widgts{
+        margin-top: 25px;
+    }
+    .ftr_copy p{
+        width: 100%;
+    }
+    .fb_hero_txt h5{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .fb_hero_txt h1{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .hero_img{
+        margin-top: 35px;
+    }
+    .fb_hero_txt a img{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .contact_lft h2,
+    .recent_post_head h2,
+    .services_txt h2,
+    .go_viral_txt h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .go_viral_txt p{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .go_viral_box{
+        margin: 0!important;
+        margin-bottom: 25px!important;
+    }
+    .services_txt .media{
+        margin-left: 0px;
+    }
+    .recent_post_tab_head ul li a{
+        padding: 0;
+        margin: 10px 10px;
+    }
+    .contact_form{
+        margin: 20px 0px;
+        padding: 15px;
+    }
+    .contact_form .submit-bttn{
+        text-align: center;
+    }
+    .contact_form .btn-submit {
+        padding: 13px 24px;
+        font-size: 14px;
+    }
+    .go_viral_txt {
+        text-align: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) and (max-width: 991px) {
+     
+    .header_section .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-light .navbar-toggler {
+        margin-right: 15px;
+    }
+    .header_section .navbar-brand img{
+        margin-left: 15px;
+    }
+    .header_section ul {
+        background: #F2F3F8 !important;
+        border-top: 1px solid rgba(204, 204, 204, 0.56);
+        padding-bottom: 10px;
+    }
+    .header_section .navbar-nav .nav-item .nav-link {
+        padding: 10px 15px;
+    }
+    .header_section .navbar-nav .nav-item ul{
+        width: 100%;
+    }
+    .header_section .navbar-nav .nav-item ul li a{
+        background: #fff!important;
+    }
+    .header_section .navbar-nav .nav-item ul li a:hover{
+        background: #F2F3F8!important;
+    }
+    .header_section .hvr-grow-shadow{
+        width: 94%;
+        display: block;
+        margin: 0 auto;
+        top: 0px;
+    } 
+    .fb_hero_txt{
+        text-align: center;
+    }
+    .fb_hero_txt a img{
+        display: block;
+        margin: 0 auto;
+    }
+    .go_viral_box{
+        margin: 0!important;
+        margin-bottom: 25px!important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+       
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
