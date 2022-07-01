@@ -81,7 +81,7 @@ $(function () {
     // console.log("applied");
     var $anchor = $('.any');
     if($(this).scrollTop() > $nav.height()*2){
-      $anchor.css('color', '#1A78F2');
+      $anchor.css('color', '#003E1B');
     }else{
       $anchor.css('color', '#fff');
     }
@@ -97,9 +97,9 @@ $(function () {
     $logo.addClass('d-none', $(this).scrollTop() > $nav.height()*2)
 
     if($(this).scrollTop() > $nav.height()*2){
-      $logo.attr("src", "./images/logo5.png", $(this).scrollTop() > $nav.height()*2);
+      $logo.attr("src", "./images/fiverZone.png", $(this).scrollTop() > $nav.height()*2);
     }else {
-      $logo.attr("src", "./images/logo6.png", $(this).scrollTop() > $nav.height()*2);
+      $logo.attr("src", "./images/fiverZone2.png", $(this).scrollTop() > $nav.height()*2);
     }
     // $logo.attr("src", "./images/logo5.png", $(this).scrollTop() > $nav.height()*2);
   });
