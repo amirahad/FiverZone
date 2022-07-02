@@ -143,6 +143,10 @@
     .hero_section_insta {
         background-image: inherit; 
     }
+
+    .faq_block{
+        padding: 28px 14px !important;
+    }
      
 }
 
@@ -273,6 +277,11 @@
     .go_viral_txt {
         text-align: center;
     }
+
+    .faq_block{
+        padding: 28px 14px !important;
+    }
+    
 }
 
 /* Medium devices (tablets, 768px and up) */ 
@@ -322,6 +331,17 @@
         margin: 0!important;
         margin-bottom: 25px!important;
     }
+    .content_block_service h5{
+        font-size: 18px !important;
+    }
+    .content_block_service i {
+      
+        font-size: 20px;
+      }
+      .content_block_service p {
+   
+        font-size: 11px !important;
+      }
 }
 
 /* Large devices (desktops, 992px and up) */

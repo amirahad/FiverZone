@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Details</title>
 
     <link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-/>
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="ind/css/bootstrap.min.css" />
     <link rel="stylesheet" href="ind/css/font-awesome.min.css" />
     <!-- Default Css file end -->
@@ -23,495 +23,1111 @@
       referrerpolicy="no-referrer"
     />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- Plugin Css file end -->
 
     <!-- Custom Css file Start -->
     <link rel="stylesheet" href="ind/css/style.css" />
-    <link rel="stylesheet" href="ind/css/details.css">
+    <!-- <link rel="stylesheet" href="ind/css/details.css" /> -->
     <link rel="stylesheet" href="ind/css/responsive.css" />
-</head>
-<body>
-
-
-
+  </head>
+  <body>
     <header class="header_section sticky-top" id="myHeader">
-        <div class="container">
-          <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand animate__animated animate__zoomIn" href="index">
-              <img
-                src="images/fiverZone2.png"
-                alt="logo"
-                class="img-fluid logo d-block"
-              />
-              <!-- <h3>FiverZone</h3> -->
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <div class="navbar-nav dropdown show d-md-none d-sm-block " >
-                <a class="dropdown-toggle nav-link pl-3 " style="color:#003E1B ; font-weight: bold;
-                font-size: large; background-color: #F8F8F8;;" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Catagories
-                </a>
-              
-                <div class="dropdown-menu animate__animated  animate__fadeIn" style="color:#003E1B ; font-weight: bold;
-                font-size: large; background-color: #F8F8F8;" aria-labelledby="dropdownMenuLink">
-                <div class="dropdown1  py-2">
-                  <a class="dropbtn pl-3">Facebook <i class="fa fa-caret-down"></i
-                    ></a>
-                  <div class="dropdown-content animate__animated  animate__fadeIn">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </div> 
-                <div class="dropdown1  py-2">
-                  <a class="dropbtn pl-3">Instagram <i class="fa fa-caret-down"></i
-                    ></a>
-                  <div class="dropdown-content animate__animated  animate__fadeIn">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </div>
-                <div class="dropdown1  py-2">
-                  <a class="dropbtn pl-3">Twitter <i class="fa fa-caret-down"></i
-                    ></a>
-                  <div class="dropdown-content animate__animated  animate__fadeIn">
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a
+            class="navbar-brand animate__animated animate__zoomIn"
+            href="index"
+          >
+            <img
+              src="images/fiverZone2.png"
+              alt="logo"
+              class="img-fluid logo d-block"
+            />
+            <!-- <h3>FiverZone</h3> -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav dropdown show d-md-none d-sm-block">
+              <a
+                class="dropdown-toggle nav-link pl-3"
+                style="
+                  color: #003e1b;
+                  font-weight: bold;
+                  font-size: large;
+                  background-color: #f8f8f8; ;
+                "
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Catagories
+              </a>
+
+              <div
+                class="dropdown-menu animate__animated animate__fadeIn"
+                style="
+                  color: #003e1b;
+                  font-weight: bold;
+                  font-size: large;
+                  background-color: #f8f8f8;
+                "
+                aria-labelledby="dropdownMenuLink"
+              >
+                <div class="dropdown1 py-2">
+                  <a class="dropbtn pl-3"
+                    >Facebook <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
                     <a href="#">Link 3</a>
                   </div>
                 </div>
                 <div class="dropdown1 py-2">
-                  <a class="dropbtn pl-3">YouTube <i class="fa fa-caret-down"></i
-                    ></a>
-                  <div class="dropdown-content animate__animated  animate__fadeIn">
+                  <a class="dropbtn pl-3"
+                    >Instagram <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
                     <a href="#">Link 3</a>
                   </div>
                 </div>
                 <div class="dropdown1 py-2">
-                  <a class="dropbtn pl-3">Linkedin <i class="fa fa-caret-down"></i
-                    ></a>
-                  <div class="dropdown-content animate__animated  animate__fadeIn">
+                  <a class="dropbtn pl-3"
+                    >Twitter <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
                     <a href="#">Link 3</a>
                   </div>
                 </div>
-                <div class="dropdown1  py-3">
-                  <a class="dropbtn pl-3">TikTok <i class="fa fa-caret-down"></i
-                    ></a>
-                  <div class="dropdown-content animate__animated  animate__fadeIn">
+                <div class="dropdown1 py-2">
+                  <a class="dropbtn pl-3"
+                    >YouTube <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
                     <a href="#">Link 3</a>
                   </div>
                 </div>
-                 
+                <div class="dropdown1 py-2">
+                  <a class="dropbtn pl-3"
+                    >Linkedin <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
                 </div>
-              </div>
-              
-             
-              <div class=" d-flex nav-item ml-auto mb-md-3 mb-sm-0 left ">
-              <div class=" mb-md-3 mb-sm-0 mr-3 mt-2 mt-lg-4 mt-md-4 mt-sm-2 txt animate__animated animate__fadeInDown ">
-                <a href="#" class="any hvr-float-shadow">About Us</a>
-              </div>
-              <div class=" mb-md-3 mb-sm-0 mr-3 mt-2 mt-lg-4 mt-md-4 mt-sm-2 txt animate__animated animate__fadeInDown ">
-                <a href="#" class=" any hvr-float-shadow">Become a Seller</a>
-              </div>
-              
-                <div class="flex-row mt-0 mt-2 mt-md-3 mt-lg-0 mt-sm-2 animate__animated animate__heartBeat">
-                  <a href="#" class="hvr-grow-shadow">Join Now</a>
+                <div class="dropdown1 py-3">
+                  <a class="dropbtn pl-3"
+                    >TikTok <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
                 </div>
               </div>
             </div>
-          </nav>
-       
-        </div>
-      </header>
-  
-     
-          <div class="container-fluid high d-none animate__animated  animate__fadeInDown">
-              <div class=" portions">
-                  <ul class="d-flex flex-row justify-content-around mt-1 align-items-center">
-                    
-  
-                      <div class="dropdown1">
-                        <a class="dropbtn">Facebook <i class="fa fa-caret-down"></i
-                          ></a>
-                        <div class="dropdown-content animate__animated  animate__fadeIn">
-                          <a href="#">Link 1</a>
-                          <a href="#">Link 2</a>
-                          <a href="#">Link 3</a>
-                        </div>
-                      </div>
-                      
-                      <div class="dropdown1">
-                        <a class="dropbtn">Instagram <i class="fa fa-caret-down"></i
-                          ></a>
-                        <div class="dropdown-content animate__animated  animate__fadeIn">
-                          <a href="#">Link 1</a>
-                          <a href="#">Link 2</a>
-                          <a href="#">Link 3</a>
-                        </div>
-                      </div> 
-  
-                      <div class="dropdown1">
-                        <a class="dropbtn">Twitter <i class="fa fa-caret-down"></i
-                          ></a>
-                        <div class="dropdown-content animate__animated  animate__fadeIn">
-                          <a href="#">Link 1</a>
-                          <a href="#">Link 2</a>
-                          <a href="#">Link 3</a>
-                        </div>
-                      </div> 
-  
-                      <div class="dropdown1">
-                        <a class="dropbtn">YouTube <i class="fa fa-caret-down"></i
-                          ></a>
-                        <div class="dropdown-content animate__animated  animate__fadeIn">
-                          <a href="#">Link 1</a>
-                          <a href="#">Link 2</a>
-                          <a href="#">Link 3</a>
-                        </div>
-                      </div> 
-  
-                      <div class="dropdown1">
-                        <a class="dropbtn">Linkedin <i class="fa fa-caret-down"></i
-                          ></a>
-                        <div class="dropdown-content animate__animated  animate__fadeIn">
-                          <a href="#">Link 1</a>
-                          <a href="#">Link 2</a>
-                          <a href="#">Link 3</a>
-                        </div>
-                      </div> 
-  
-                      <div class="dropdown1">
-                        <a class="dropbtn">TikTok <i class="fa fa-caret-down"></i
-                          ></a>
-                        <div class="dropdown-content animate__animated  animate__fadeIn">
-                          <a href="#">Link 1</a>
-                          <a href="#">Link 2</a>
-                          <a href="#">Link 3</a>
-                        </div>
-                      </div> 
-  
-                  </ul>
+
+            <div class="d-flex nav-item ml-auto mb-md-3 mb-sm-0 left">
+              <div
+                class="mb-md-3 mb-sm-0 mr-3 mt-2 mt-lg-4 mt-md-4 mt-sm-2 txt animate__animated animate__fadeInDown"
+              >
+                <a href="#" class="any hvr-float-shadow">About Us</a>
               </div>
+              <div
+                class="mb-md-3 mb-sm-0 mr-3 mt-2 mt-lg-4 mt-md-4 mt-sm-2 txt animate__animated animate__fadeInDown"
+              >
+                <a href="#" class="any hvr-float-shadow">Become a Seller</a>
+              </div>
+
+              <div
+                class="flex-row mt-0 mt-2 mt-md-3 mt-lg-0 mt-sm-2 animate__animated animate__heartBeat"
+              >
+                <a href="#" class="hvr-grow-shadow">Join Now</a>
+              </div>
+            </div>
           </div>
-    
+        </nav>
+      </div>
+    </header>
 
+    <div
+      class="container-fluid high d-none animate__animated animate__fadeInDown"
+    >
+      <div class="portions">
+        <ul
+          class="d-flex flex-row justify-content-around mt-1 align-items-center"
+        >
+          <div class="dropdown1">
+            <a class="dropbtn">Facebook <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
 
-          <section class="slider_block">
-            <div class="container py-5">
-               <div class="col-md-12">
-                  <div class="title text-center inner">
-                     <h1> Buy Instagram Likes with <span> Fast Delivery</span> <i class="em em-rocket"></i></h1>
-                     <div class="review_star">
-                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
-                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
-                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
-                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
-                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
-                        <span class="text">(73 Reviews)</span>
-                     </div>
-                     <p class="py-3">Ready to get the exposure you deserve? Pick the #1 choice for Instagram promotion; the team at Viralyft has over 50 years of marketing experience to help you reach your full potential and increase credibility!
-                     </p>
-                  </div>
-                <!--  <div class="ads_block">
+          <div class="dropdown1">
+            <a class="dropbtn">Instagram <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown1">
+            <a class="dropbtn">Twitter <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown1">
+            <a class="dropbtn">YouTube <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown1">
+            <a class="dropbtn">Linkedin <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown1">
+            <a class="dropbtn">TikTok <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <section class="slider_block">
+      <div class="container py-5">
+        <div class="col-md-12">
+          <div class="title text-center inner">
+            <h1>
+              Buy Instagram Likes with <span> Fast Delivery</span>
+              <i class="em em-rocket"></i>
+            </h1>
+            <div class="review_star">
+              <span><i class="fa fa-star" aria-hidden="true"></i></span>
+              <span><i class="fa fa-star" aria-hidden="true"></i></span>
+              <span><i class="fa fa-star" aria-hidden="true"></i></span>
+              <span><i class="fa fa-star" aria-hidden="true"></i></span>
+              <span><i class="fa fa-star" aria-hidden="true"></i></span>
+              <span class="text">(73 Reviews)</span>
+            </div>
+            <p class="py-3">
+              Ready to get the exposure you deserve? Pick the #1 choice for
+              Instagram promotion; the team at Viralyft has over 50 years of
+              marketing experience to help you reach your full potential and
+              increase credibility!
+            </p>
+          </div>
+          <!--  <div class="ads_block">
                      <p><strong>News 7 July 2020:</strong></p>
                      <p class="text_p">Followers are working. Start-time: 0-30 minutes. Current delivery speed: 500+ followers per hour.<br> If you experience minor drops, don’t worry: we refill lost followers automatically, daily!</p>
                   </div>  -->
-               </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ghfj">
+      <div style="margin: auto; width: 100%">
+        <div class="price_coment_like">
+          <div class="price_like">
+            <a href="#" class="ahreff"> Instagram Followers</a>
+          </div>
+          <div class="price_like">
+            <a href="#" class="ahreff"> Instagram Comments</a>
+          </div>
+          <div class="price_like">
+            <a href="#" class="ahreff"> Instagram Views</a>
+          </div>
+          <div class="price_like">
+            <a href="#" class="ahreff"> Instagram Auto Likes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="recent_post">
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="recent_post_head">
+              <h2>Our Pricing</h2>
             </div>
-         </section>
+          </div>
+        </div>
+      </div>
 
-
-
-         <div class="ghfj">
-            <div style="margin: auto;width: 100%;">
-              <div class="price_coment_like" style="text-align: center;width: 100%;display: flex;justify-content: center;margin: 20px 0 30px 0;align-items: center;flex-direction: row;">
-                <div class="price_like"> <a href="#" class="ahreff"> Instagram Followers</a> </div>
-                <div class="price_like"> <a href="#" class="ahreff"> Instagram Comments</a> </div>
-                <div class="price_like"> <a href="#" class="ahreff"> Instagram Views</a> </div>
-                <div class="price_like"> <a href="#" class="ahreff"> Instagram Auto Likes</a> </div>
-                
+      <div class="slider-section">
+        <div class="swiper2 mySwiper2 container pt-2">
+          <div class="swiper-wrapper col-lg-12">
+            <div class="cloned swiper-slide slide" style="width: 100%">
+              <div class="item package_box py-3">
+                <div class="heading">
+                  <h3>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    2500
+                  </h3>
+                  <span>followers</span>
+                </div>
+                <div class="pricing">
+                  <span style="font-size: 75%">$</span>35.99
+                </div>
+                <div class="features">
+                  <ul>
+                    <li><strong>Real</strong> Users</li>
+                    <li>Safe &amp; Secure</li>
+                    <li>24/7 Support</li>
+                    <li>24-72 Hour Delivery</li>
+                    <li><strong>High Retention Rate</strong></li>
+                    <li>Engaging Users</li>
+                  </ul>
+                </div>
+                <div class="cta"><a href="#">Buy Now</a></div>
               </div>
             </div>
-        </div> 
+            <div class="cloned swiper-slide slide" style="width: 100%">
+              <div class="item package_box py-3">
+                <div class="heading">
+                  <h3>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    2500
+                  </h3>
+                  <span>followers</span>
+                </div>
+                <div class="pricing">
+                  <span style="font-size: 75%">$</span>35.99
+                </div>
+                <div class="features">
+                  <ul>
+                    <li><strong>Real</strong> Users</li>
+                    <li>Safe &amp; Secure</li>
+                    <li>24/7 Support</li>
+                    <li>24-72 Hour Delivery</li>
+                    <li><strong>High Retention Rate</strong></li>
+                    <li>Engaging Users</li>
+                  </ul>
+                </div>
+                <div class="cta"><a href="#">Buy Now</a></div>
+              </div>
+            </div>
+            <div class="cloned swiper-slide slide" style="width: 100%">
+              <div class="item package_box py-3">
+                <div class="heading">
+                  <h3>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    2500
+                  </h3>
+                  <span>followers</span>
+                </div>
+                <div class="pricing">
+                  <span style="font-size: 75%">$</span>35.99
+                </div>
+                <div class="features">
+                  <ul>
+                    <li><strong>Real</strong> Users</li>
+                    <li>Safe &amp; Secure</li>
+                    <li>24/7 Support</li>
+                    <li>24-72 Hour Delivery</li>
+                    <li><strong>High Retention Rate</strong></li>
+                    <li>Engaging Users</li>
+                  </ul>
+                </div>
+                <div class="cta"><a href="#">Buy Now</a></div>
+              </div>
+            </div>
+            <div class="cloned swiper-slide slide" style="width: 100%">
+              <div class="item package_box py-3">
+                <div class="heading">
+                  <h3>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    2500
+                  </h3>
+                  <span>followers</span>
+                </div>
+                <div class="pricing">
+                  <span style="font-size: 75%">$</span>35.99
+                </div>
+                <div class="features">
+                  <ul>
+                    <li><strong>Real</strong> Users</li>
+                    <li>Safe &amp; Secure</li>
+                    <li>24/7 Support</li>
+                    <li>24-72 Hour Delivery</li>
+                    <li><strong>High Retention Rate</strong></li>
+                    <li>Engaging Users</li>
+                  </ul>
+                </div>
+                <div class="cta"><a href="#">Buy Now</a></div>
+              </div>
+            </div>
+            <div class="cloned swiper-slide slide" style="width: 100%">
+              <div class="item package_box py-3">
+                <div class="heading">
+                  <h3>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    2500
+                  </h3>
+                  <span>followers</span>
+                </div>
+                <div class="pricing">
+                  <span style="font-size: 75%">$</span>35.99
+                </div>
+                <div class="features">
+                  <ul>
+                    <li><strong>Real</strong> Users</li>
+                    <li>Safe &amp; Secure</li>
+                    <li>24/7 Support</li>
+                    <li>24-72 Hour Delivery</li>
+                    <li><strong>High Retention Rate</strong></li>
+                    <li>Engaging Users</li>
+                  </ul>
+                </div>
+                <div class="cta"><a href="#">Buy Now</a></div>
+              </div>
+            </div>
+            <div class="cloned swiper-slide slide" style="width: 100%">
+              <div class="item package_box py-3">
+                <div class="heading">
+                  <h3>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    2500
+                  </h3>
+                  <span>followers</span>
+                </div>
+                <div class="pricing">
+                  <span style="font-size: 75%">$</span>35.99
+                </div>
+                <div class="features">
+                  <ul>
+                    <li><strong>Real</strong> Users</li>
+                    <li>Safe &amp; Secure</li>
+                    <li>24/7 Support</li>
+                    <li>24-72 Hour Delivery</li>
+                    <li><strong>High Retention Rate</strong></li>
+                    <li>Engaging Users</li>
+                  </ul>
+                </div>
+                <div class="cta"><a href="#">Buy Now</a></div>
+              </div>
+            </div>
+            <div class="cloned swiper-slide slide" style="width: 100%">
+              <div class="item package_box py-3">
+                <div class="heading">
+                  <h3>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    2500
+                  </h3>
+                  <span>followers</span>
+                </div>
+                <div class="pricing">
+                  <span style="font-size: 75%">$</span>35.99
+                </div>
+                <div class="features">
+                  <ul>
+                    <li><strong>Real</strong> Users</li>
+                    <li>Safe &amp; Secure</li>
+                    <li>24/7 Support</li>
+                    <li>24-72 Hour Delivery</li>
+                    <li><strong>High Retention Rate</strong></li>
+                    <li>Engaging Users</li>
+                  </ul>
+                </div>
+                <div class="cta"><a href="#">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
 
+          <!-- <div class="swiper-button-prev swiper-button"></div>
+            <div class="swiper-button-next swiper-button"></div> -->
+        </div>
+      </div>
+    </section>
 
-        <section class="recent_post">
-            <div class="container pb-5">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="recent_post_head">
-                    <h2>Our Pricing</h2>
+    <section class="how_it_works py-5">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="content_block_img">
+              <img src="images/img1.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="content_block_img">
+              <img src="images/img2.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="content_block_img">
+              <img src="images/img3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how_it_works bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title text-center py-3 inner">
+              <h1>How To Buy Real <span>Instagram Likes</span></h1>
+              <p class="py-3">
+                Reach your goals with our premium Instagram Likes
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="content_block_service border">
+              <h5 class="py-2">Choose your Package</h5>
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+              <p>
+                Select from our range of packages to find the perfect size for
+                you, all of our packages include 24/7 live-chat support and we
+                provide the highest quality followers available!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="content_block_service border">
+              <h5 class="py-2">Enter Your Username</h5>
+              <i class="fa fa-user-circle" aria-hidden="true"></i>
+              <p>
+                Provide us with your Instagram username, no password is needed!
+                Just make sure your account is set to public so you can receive
+                followers.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="content_block_service">
+              <h5 class="py-2">Complete Checkout</h5>
+              <i class="fa fa-money" aria-hidden="true"></i>
+              <p>
+                Pay securely via our SSL encrypted payment gateway, we accept
+                all major credit and debit cards, You can rest easy knowing your
+                financial information is never stored.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how_it_works bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title text-center inner py-4">
+              <h1 style="color: #003e1b">
+                Why Buy Instagram Likes from Viralyft?
+              </h1>
+            </div>
+          </div>
+
+          <!-- <style>
+ .panel-group p{margin-bottom: 8px;}
+</style> -->
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="faq_block">
+              <div
+                class="panel-group"
+                id="accordionGroupClosed"
+                role="tablist"
+                aria-multiselectable="true"
+              >
+                <p>
+                  Do you dream to be a successful star on Instagram? Begin your
+                  journey towards fame and money with the right boost! Viralyft
+                  is here to help you with HIGH ENGAGEMENT and EXTREME
+                  VISIBILITY! Kickstart your virtual career with our guaranteed
+                  services and results.
+                </p>
+
+                <h5 class="title py-2">
+                  <span><b>What makes us unique</b></span>
+                </h5>
+
+                <p>
+                  We are always one step ahead of the competition. Therefore, we
+                  make sure that you too always have an edge over your rivals.
+                  Are you wondering what makes us the best among other sites?
+                </p>
+
+                <p class="title py-2">* <b>Fast Delivery</b></p>
+                <p>
+                  One of the best things about our site is that we provide
+                  results faster than anyone. All you have to do is choose your
+                  package, and the rest of it will be managed by us. You can buy
+                  Instagram likes from us in any amounts.
+                </p>
+                <p>
+                  You will start seeing results within a matter of one day.
+                  Sometimes you might even start seeing results in a few hours.
+                  We understand that it is extremely important for any online
+                  influencer to stay ahead of their timeline.
+                </p>
+                <p class="title py-2">* <b>Guaranteed Results</b></p>
+                <p>
+                  Some sites might offer you the world but provide you
+                  absolutely nothing in terms of results. However, at Viralyft
+                  you get exactly what you have paid for. This means that your
+                  investment will not go to waste. We understand that your
+                  money, is of great value. Therefore, we always ensure that you
+                  get the results that you require for the right growth on
+                  Instagram.
+                </p>
+                <p>
+                  We are extremely capable of providing you the promised
+                  services on Instagram. Therefore, you can completely place
+                  your trust and buy Instagram likes from us.
+                </p>
+                <p class="title py-2">* <b>Secure Payment </b></p>
+                <p>
+                  We know that there is nothing more important than the safety
+                  of your financial data. Therefore, we make use of some
+                  extremely safe payment gateways. All of them are encrypted,
+                  and created in a manner that best ensure the security of your
+                  bank details. You can find from our reviews online- that we
+                  are no scam site. We only take the minimum payment for our
+                  services, and never embezzle. Thus, you can buy Instagram
+                  likes from us without any hesitation.
+                </p>
+
+                <p class="title py-2">* <b>Privacy and Safety</b></p>
+                <p>
+                  Another thing that we are bent upon ensuring, is that you and
+                  your personal information always remains safe. It goes without
+                  saying that anybody’s identity is highly valuable.
+                </p>
+                <p>
+                  Therefore, we always try to help you maintain the safety of
+                  your profile. We have various virus protection software, which
+                  keeps your data intact in the long term. Moreover, we always
+                  take care to create a strong authentication process which
+                  further helps maintain confidentiality of your identity.
+                </p>
+                <p class="title py-2">* <b>Customer Care</b></p>
+                <p>
+                  For us, our customers and their needs are the most important
+                  aspects of our business. Therefore, we always want to provide
+                  you the support as well as assistance that you might need when
+                  you decide to buy Instagram likes from us. We have a customer
+                  care number that you can always get in touch with, if you want
+                  specific details of a package.
+                </p>
+                <p>
+                  Moreover, if you can’t reach us on phone, you can always drop
+                  us a message online via mail. One of our representatives shall
+                  get in touch with you as soon as possible. Be assured we will
+                  not make you wait.
+                </p>
+                <!-- <p>*	<b>User Experience</b></p>
+<p>When you visit our website- it is our responsibility to ensure that you have the greatest experience online. Therefore, we have taken care to create a site which is thoroughly easy to navigate and understand.
+</p>
+<p>Here, you will find various support articles. Moreover, you will also be directed as to the steps you need to take in order to sign up with our service, and buy engagement. Our aim at any time is to give you the best user experience among the sites you have visited till date. 
+
+</p>
+<p>*	<b>Strong Work Ethic </b></p>
+<p>It is not possible for customers to diagnose their own issues. Often professional help is needed to understand what fits best for particular requirements. This means that any company should have workers that are ready to work at the command of its customers.  </p>
+<p>Many people who have strong problem-solving skills, strong interaction, as well as a methodical approach. We ensure that our work ethic is always right- such that people do not have any complaints with our professionalism. 
+</p>
+<p>*	<b>Variety of Packages to Pick</b></p>
+<p>Another thing that you will love about us is that we provide a variety of packages that you can choose from. This means that you do not have to stick to an already planned campaign, that is not at all flexible. However, you can always create your own customized plan as per the number of comments, likes, and followers that you want on Instagram. <p/>
+<p>Thus, your growth is in your hands. We make sure to provide variety because we understand that people from different places have different needs. For instance, some people want targeted likes while others might want spread out likes instead. No matter how you buy Instagram likes from us- there will be a perfect package for your needs.
+</p>
+<p>*	<b>Cost-Efficient </b></p>
+<p>Another thing that you should love about our company is that we are extremely cost-efficient. We have small plans that range from a few dollars to some hundred dollars. Therefore, you can see that we do not like to keep packages which are very expensive and unaffordable. We know that on line marketing is already a very taxing as well as a costly affair.
+</p>
+<p>Hence, we want to make things as cost-efficient for a company client as possible. Like we mentioned before you are a top priority. Hence, we want to ease the financial burden on you. 
+</p>
+<p>*	<b>High Expertise and Skills </b></p>
+<p>We have very strong expertise as well as skills. we always make sure that we are working with the top minds in the industry. Thus, our employees are always people who have had immense experience. We also understand that this is an environment in which we continuously need to grow. Therefore, we have great learning skills as well. We are constantly expanding what we know, as well as our knowledge base to gain skills as well as information. 
+</p> -->
+
+                <h5 class="title py-2">
+                  <span><b>How to Get Started- </b></span>
+                </h5>
+                <p class="title py-2">* <b>Select Package</b></p>
+                <p>
+                  There are various packages in our site through which you can
+                  buy Instagram likes. As soon as you log into our website you
+                  can clearly see different packages within the Instagram page.
+                  The first step would be selecting any comments, likes, or
+                  follower packages that you like.
+                </p>
+
+                <p class="title py-2">* <b>Provider Info</b></p>
+                <p>
+                  The next thing that you have to do is- you have to register
+                  yourself for that plan and give certain information. This is
+                  not going to be sensitive personal information. Instead, we
+                  are only going to ask basic questions about your profile, so
+                  that we can target it, and advertise it.
+                </p>
+
+                <p class="title py-2">* <b>Checkout Securely </b></p>
+                <p>
+                  When these steps have been taken, all you have to do is make
+                  the payment. That's it next you have to check out and work
+                  will be done. just sit back and wait for the amazing results.
+                </p>
+
+                <h5 class="title py-2">
+                  <span><b>Special Features- </b></span>
+                </h5>
+                <p class="title py-2">* <b>No Spam Accounts</b></p>
+                <p>
+                  There are various sites online which will claim to provide you
+                  similar services. However, once you have worked with them you
+                  will come to realize that when it comes to
+                  <a href="https://viralyft.com/buy-instagram-followers"
+                    >increasing Instagram followers</a
+                  >, they will only provide you spam accounts.
+                </p>
+                <p>
+                  Therefore, you will not get real engagement. Instead, you will
+                  get automated accounts, automated likes, and automated
+                  comments. However, we get rid of any fake engagement on your
+                  account.
+                </p>
+
+                <p class="title py-2">* <b>Custom Plans</b></p>
+                <p>
+                  Another thing that is very unique to a company is that we are
+                  able to create plans which are customized. this means that we
+                  are able to cater to the personalized needs of people around
+                  the globe. You will not be limited to the plans that we have
+                  preset within our website. As a matter of fact, you can go
+                  ahead and choose the plans at your convenience.
+                </p>
+
+                <p class="title py-2">* <b>Instant Results </b></p>
+                <p>
+                  We understand that your time is valuable. We have always put
+                  the ethic of punctuality at the forefront of everything that
+                  we do. Therefore, our company always guarantees instant
+                  results. You will be able to see changes within your
+                  engagement in a matter of few hours, or at most one day. The
+                  time that has passed cannot be earned back. Hence every second
+                  that you spend should be chosen wisely.
+                </p>
+
+                <p class="title py-2">
+                  * <b>Organic Growth and Advertising</b>
+                </p>
+                <p>
+                  It is possible that your instagram might be filled with
+                  accounts that are not real. This happens when your account has
+                  not been advertised organically but artificially. The meaning
+                  behind this is that your account was never made visible to
+                  real people on the web. However, we believe in organic
+                  advertising and showing your account to people with the right
+                  interests. Such people will want to engage with you on their
+                  own- placing you higher on the Instagram algorithm. This will
+                  be highly detrimental to your success on Instagram.
+                </p>
+
+                <p class="title py-2">* <b>Great Retention Rate </b></p>
+                <p>
+                  Not only is it important to get engagement, but it is also
+                  important to retain it over periods of time. Therefore, we
+                  ensure that the people connecting with you over Instagram
+                  engage with you for the long term. Thus, the interaction won’t
+                  be limited to one post.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how_it_works bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center inner py-5">
+              <h1 style="color: #003e1b">
+                Frequently Asked Questions <i class="em em-raising_hand"></i>
+              </h1>
+            </div>
+          </div>
+
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="faq_block">
+              <div
+                class="panel-group"
+                id="accordionGroupClosed"
+                role="tablist"
+                aria-multiselectable="true"
+              >
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingSeven">
+                    <h4 class="panel-title py-2">
+                      <a
+                        class="collapsed"
+                        role="button"
+                        data-toggle="collapse"
+                        data-parent="#accordionGroupClosed"
+                        href="#collapseCloseSeven"
+                        aria-expanded="true"
+                        aria-controls="collapseCloseSeven"
+                      >
+                        How to get Instagram likes organically?
+                      </a>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapseCloseSeven"
+                    class="panel-collapse collapse text-start"
+                    role="tabpanel"
+                    aria-labelledby="headingSeven"
+                  >
+                    <div class="panel-body py-2 px-3">
+                      <p>
+                        Organic methods are just as important to increase social
+                        ranking and gain a wider reach. There are several tips
+                        that you can follow to increase engagement on Instagram.
+                      </p>
+
+                      <p><b>* Research about your niche:</b></p>
+                      <p>
+                        Since content is king, users need to thoroughly research
+                        their respective industries. This helps in finding and
+                        curating trendy content and liked by people.
+                      </p>
+
+                      <p><b>* Posting consistently:</b></p>
+                      <p>
+                        Being inactive for long a long time can make people lose
+                        interest in your content. To keep the engagements
+                        flowing, it’s imperative to post content consistently.
+                      </p>
+
+                      <p><b>* Leveraging hashtags:</b></p>
+                      <p>
+                        Hashtags are one of the best possible ways to get more
+                        Instagram likes. This is because hashtags help in making
+                        your content reach a targeted audience. When your posts
+                        reach people looking for similar content, it helps in
+                        increasing likes.
+                      </p>
+
+                      <p><b>* Provide incentives:</b></p>
+                      <p>
+                        Another great way to make people like your content is by
+                        providing incentives. The key is to ignite excitement
+                        through engaging content like contests and likes-based
+                        giveaways.
+                      </p>
+
+                      <p><b>* Staying engaging and interactive:</b></p>
+                      <p>
+                        Brand recall helps tremendously in increasing likes and
+                        engagements. Users can consistently engage with their
+                        audience. This may be through live videos, DM’s,
+                        replying to comments, etc. Making lasting connections
+                        help in long-term engagements.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingEight">
+                    <h4 class="panel-title py-2">
+                      <a
+                        class="collapsed"
+                        role="button"
+                        data-toggle="collapse"
+                        data-parent="#accordionGroupClosed"
+                        href="#collapseCloseEight"
+                        aria-expanded="false"
+                        aria-controls="collapseEight"
+                      >
+                        What hashtags will get the most Instagram likes?
+                      </a>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapseCloseEight"
+                    class="panel-collapse collapse"
+                    role="tabpanel"
+                    aria-labelledby="headingEight"
+                  >
+                    <div class="panel-body py-2 px-3">
+                      <p>
+                        Hashtags are every marketer’s secret weapon to get more
+                        Instagram likes. This is because they help in generating
+                        a more targeted audience. There are several ways in
+                        which hashtags can be leveraged. Some of the common ones
+                        include inserting them in the middle of the caption, at
+                        the end of the captions, or in the comment section. To
+                        know the best hashtags to gain Instagram likes, one must
+                        first clearly define their niche.
+                      </p>
+                      <p>
+                        Different industries have different trending hashtags.
+                        For instance: If you’re a fashion brand looking for
+                        hashtags, some examples would be #fashion #OOTD
+                        #clothing #streetstyle, etc. So plan the best hashtags
+                        accordingly to your niche along with some popular ones.
+                        Some of the most popular hashtags are #love, #instagood
+                        #fashion, #photooftheday, #art, and many more. It’s
+                        important to be strategic with hashtags but don’t use
+                        too many. Users can also search for the main keyword in
+                        the Instagram hashtag search section for more related
+                        and popular hashtags.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingNine">
+                    <h4 class="panel-title py-2">
+                      <a
+                        class="collapsed"
+                        role="button"
+                        data-toggle="collapse"
+                        data-parent="#accordionGroupClosed"
+                        href="#collapseCloseNine"
+                        aria-expanded="false"
+                        aria-controls="collapseNine"
+                      >
+                        Is it legal to buy Instagram likes?
+                      </a>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapseCloseNine"
+                    class="panel-collapse collapse"
+                    role="tabpanel"
+                    aria-labelledby="headingNine"
+                  >
+                    <div class="panel-body py-2 px-3">
+                      <p>
+                        Back in the day, there was a taboo revolving around the
+                        concept of buying Instagram likes and other engagements.
+                        While there were a lot of rumors claiming that it’s
+                        illegal to buy Instagram likes, it’s untrue. It is legal
+                        to buy IG likes and many marketers have started to adopt
+                        this approach. However, there are certain fraud sellers
+                        that may employ illegal methods to help you grow your
+                        Instagram. Many cheap sites deliver bots, spam accounts,
+                        and fake accounts to get the job done.
+                      </p>
+                      <p>
+                        This may arise suspicion, alert the Instagram community,
+                        and may even lead to account suspension. Hence, it’s
+                        important to stay wary of such sellers. But as long as
+                        you choose a quality seller that uses a real and organic
+                        approach, you’re good to go. Most reliable websites use
+                        legal promotional methods to help you increase
+                        engagements on Instagram. These may include
+                        auto-engaging, leveraging micro-communities, running ad
+                        campaigns, reward systems, and many more. Instagram does
+                        not have ways to figure out whether one has increased
+                        engagements ordinarily or by using third-party help. Try
+                        to look for platforms that have a streak of employing
+                        organic methods only.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTan">
+                    <h4 class="panel-title py-2">
+                      <a
+                        class="collapsed"
+                        role="button"
+                        data-toggle="collapse"
+                        data-parent="#accordionGroupClosed"
+                        href="#collapseCloseTan"
+                        aria-expanded="false"
+                        aria-controls="collapseTan"
+                      >
+                        How to buy real Instagram likes?
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div
+                    id="collapseCloseTan"
+                    class="panel-collapse collapse"
+                    role="tabpanel"
+                    aria-labelledby="headingTan"
+                  >
+                    <div class="panel-body py-2 px-3">
+                      <p>
+                        In order to buy real Instagram likes, one first needs to
+                        find reliable SMM tools. The market is filled with shady
+                        accounts scamming customers by offering the lowest
+                        prices. But we will always suggest you choose quality
+                        over quantity, within your budget. Real tools deliver
+                        real Instagram likes using organic methods. Reliable
+                        tools also ensure a high retention rate, along with a
+                        refill policy. On the other hand, shady websites may
+                        deliver bots and fake accounts. You can check out
+                        reliable blogs and browse through customer reviews to
+                        find reliable tools.
+                      </p>
+                      <p>
+                        Depending on your objectives and budget, get started
+                        with any tool of your preference. Several affordable
+                        tools are offering high-quality services like Viralyft,
+                        Social Pros, Views Expert, and more. Browse through the
+                        plans and select the most feasible one. Copy and paste
+                        your Instagram URL/image URL and select the payment
+                        option. Once you complete the payment and buy real
+                        Instagram likes, wait for a few hours to see results.
+                        Some tools also have a dashboard that lets users track
+                        results.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              
-              
             </div>
-      
-            <div class="slider-section">
-              <div class="swiper2 mySwiper2 container pt-2">
-                  <div class="swiper-wrapper col-lg-12">
-                      <!-- <a href="#" class=" swiper-slide slide">
-                          <div ><h4><small>Unlock growth online</small><br> SEO</h4><img src="images/data-entry-2x.webp" alt=""></div>
-                        </a>
-                    <a href="#" class=" swiper-slide slide">
-                      <div ><h4><small>Unlock growth online</small><br> SEO</h4><img src="images/seo-2x.webp" alt=""></div>
-                    </a>
-                    <a href="#" class=" swiper-slide slide">
-                      <div ><h4><small>Unlock growth online</small><br> SEO</h4><img src="images/illustration-2x.webp" alt=""></div>
-                    </a>
-                    <a href="#" class=" swiper-slide slide">
-                      <div ><h4><small>Unlock growth online</small><br> SEO</h4><img src="images/data-entry-2x.webp" alt=""></div>
-                    </a>
-                    <a href="#" class=" swiper-slide slide">
-                      <div ><h4><small>Unlock growth online</small><br> SEO</h4><img src="images/seo-2x.webp" alt=""></div>
-                    </a>
-                    <a href="#" class=" swiper-slide slide">
-                      <div ><h4><small>Unlock growth online</small><br> SEO</h4><img src="images/illustration-2x.webp" alt=""></div>
-                    </a> -->
-
-                    <div class=" cloned swiper-slide slide" style="width: 100%;">
-                        <div class="item package_box py-3">
-                          <div class="heading">
-                              <h3>
-                                  <i class="fa fa-user" aria-hidden="true"></i>
-                                  2500                                  </h3>
-                              <span>followers</span>
-                          </div>
-                          <div class="pricing"> <span style="font-size:75%">$</span>35.99</div>
-                          <div class="features">
-                              <ul>
-                                  <li><strong>Real</strong> Users</li>
-                                  <li>Safe &amp; Secure</li>
-                                  <li>24/7 Support</li>
-                                  <li>24-72 Hour Delivery</li>
-                                  <li><strong>High Retention Rate</strong></li>
-                                  <li>Engaging Users</li>
-                              </ul>
-                          </div>
-                          <div class="cta"> <a href="#">Buy Now</a></div>
-                      </div>
-                     </div>
-                     <div class=" cloned swiper-slide slide " style="width: 100%;">
-                        <div class="item package_box py-3">
-                          <div class="heading">
-                              <h3>
-                                  <i class="fa fa-user" aria-hidden="true"></i>
-                                  2500                                  </h3>
-                              <span>followers</span>
-                          </div>
-                          <div class="pricing"> <span style="font-size:75%">$</span>35.99</div>
-                          <div class="features">
-                              <ul>
-                                  <li><strong>Real</strong> Users</li>
-                                  <li>Safe &amp; Secure</li>
-                                  <li>24/7 Support</li>
-                                  <li>24-72 Hour Delivery</li>
-                                  <li><strong>High Retention Rate</strong></li>
-                                  <li>Engaging Users</li>
-                              </ul>
-                          </div>
-                          <div class="cta"> <a href="#">Buy Now</a></div>
-                      </div>
-                     </div>
-                     <div class=" cloned swiper-slide slide" style="width: 100%;">
-                        <div class="item package_box py-3">
-                          <div class="heading">
-                              <h3>
-                                  <i class="fa fa-user" aria-hidden="true"></i>
-                                  2500                                  </h3>
-                              <span>followers</span>
-                          </div>
-                          <div class="pricing"> <span style="font-size:75%">$</span>35.99</div>
-                          <div class="features">
-                              <ul>
-                                  <li><strong>Real</strong> Users</li>
-                                  <li>Safe &amp; Secure</li>
-                                  <li>24/7 Support</li>
-                                  <li>24-72 Hour Delivery</li>
-                                  <li><strong>High Retention Rate</strong></li>
-                                  <li>Engaging Users</li>
-                              </ul>
-                          </div>
-                          <div class="cta"> <a href="#">Buy Now</a></div>
-                      </div>
-                     </div>
-                    
-                  </div>
-                  <div class="swiper-pagination"></div>
-                  
-                  <!-- <div class="swiper-button-prev swiper-button"></div>
-            <div class="swiper-button-next swiper-button"></div> -->
-                  </div>
-          
-            </div>
-      
-            <!-- <div class="container-fluid pt-2">
-              <div class="row">
-              <div class="col-lg-12 slider">
-                  <div class="slide">
-                      <a href=""><h4><small>Unlock growth online</small><br> SEO</h4><img src="images/seo-2x.webp" alt=""></a>
-                  </div>
-                  <div class="slide">
-                      <a href=""><h4><small>Unlock growth online</small><br> SEO</h4><img src="images/illustration-2x.webp" alt=""></a>
-                  </div>
-                  <div class="slide">
-                      <a href=""><h4><small>Unlock growth online</small><br> SEO</h4><img src="images/data-entry-2x.webp" alt=""></a>
-                  </div>
-                  <div class="slide">
-                      <a href=""><h4><small>Unlock growth online</small><br> SEO</h4><img src="images/seo-2x.webp" alt=""></a>
-                  </div>
-                  <div class="slide">
-                      <a href=""><h4><small>Unlock growth online</small><br> SEO</h4><img src="images/data-entry-2x.webp" alt=""></a>
-                  </div>
-              </div>
           </div>
-            </div> -->
-          </section>
+        </div>
+      </div>
+    </section>
 
-
-
-          <section class="how_it_works py-5">
-            <div class="container text-center">
-               <div class="row">
-                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                     <div class="content_block_img">
-                        <img src="images/img1.png" alt="">
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                     <div class="content_block_img">
-                        <img src="images/img2.png" alt="">
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                     <div class="content_block_img">
-                        <img src="images/img3.png" alt="">
-                     </div>
-                  </div>
-               </div>
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-5">
+            <div class="widgts">
+              <h4>About</h4>
+              <ul>
+                <li><a href="refund-policy">Refund Policy</a></li>
+                <li><a href="terms-and-condition">Terms of use</a></li>
+                <li><a href="privacy-policy">privacy policy</a></li>
+                <li><a href="https://viralyft.com/blog/">Blog</a></li>
+              </ul>
             </div>
-         </section>
-
-
-
-
-         <section class="how_it_works  bg-gray">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="title text-center">
-                        <h1>How To Buy Real <span>Instagram Likes</span></h1>
-                        <p>Reach your goals with our premium Instagram Likes</p>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                     <div class="content_block_service border">
-                        <h5>Choose your Instagram Likes package</h5>
-                        <i class="fa fa-check-circle" aria-hidden="true"></i>
-                        <p>Select from our range of packages to find the perfect size for you, all of our packages include 24/7 live-chat support and we provide the highest quality followers available!</p>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                     <div class="content_block_service border">
-                        <h5>Enter Your Username</h5>
-                        <i class="fa fa-user-circle" aria-hidden="true"></i>
-                        <p>Provide us with your Instagram username, no password is needed! Just make sure your account is set to public so you can receive followers.</p>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                     <div class="content_block_service">
-                        <h5>Complete Checkout</h5>
-                        <i class="fa fa-money" aria-hidden="true"></i>
-                        <p>Pay securely via our SSL encrypted payment gateway, we accept all major credit and debit cards, You can rest easy knowing your financial information is never stored.</p>
-                     </div>
-                  </div>
-               </div>
+          </div>
+          <div class="col-md-3 col-7">
+            <div class="widgts">
+              <h4>Services</h4>
+              <ul>
+                <li>
+                  <a href="buy-instagram-followers">Buy Instagram Followers</a>
+                </li>
+                <li><a href="buy-youtube-views">Buy YouTube Views</a></li>
+                <li><a href="buy-facebook-likes">Buy Facebook Likes</a></li>
+                <li><a href="buy-spotify-plays">Buy Spotify Plays</a></li>
+              </ul>
             </div>
-         </section>
-
-              
-
-
-
-
-
-
-
-
-
-
-
-
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="widgts">
+              <h4>Why Us</h4>
+              <ul>
+                <li><a href="faq">FAQ'S</a></li>
+                <li><a href="">About</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="widgts">
+              <h4>Contact</h4>
+              <ul>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="widgts wl-card-list text-center align-items-center">
+              <img
+                src="images/fiverZone.png"
+                style="width: 125px; height: 60px"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="ftr_copy">
+              <p>
+                &copy; Copyright
+                <a href="#" style="color: #003e1b">EnvisionIT.</a> All Rights
+                Reserved 2022.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new Swiper(".mySwiper2", {
-        effect: "coverflow",
-        grabCursor: false,
-        centerPadding: '60px',
-        autoplay: true,
-    autoplaySpeed: 2000,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-        responsive: [
-      {
-        breakpoint: 769,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-    ]
-      });
-      </script>
+
     <script src="ind/js/jquery.min.js"></script>
     <script src="ind/js/popper.min.js"></script>
     <script src="ind/js/bootstrap.min.js"></script>
     <!-- <script src="ind/js/slick.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="ind/js/custom.js"></script>
-</body>
+  </body>
 </html>
