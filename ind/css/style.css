@@ -1171,3 +1171,168 @@ section.footer {
     font-size: 14px;
     padding: 3px 0;
   }
+
+
+/* user_details Page */
+
+
+
+  .enter_details_sec {
+    /* margin-top: 75px; */
+    padding: 60px 0px;
+    background-color: #003e1b;
+    background-image: url(../../images/enter_details_hero.png);
+    background-size: 55%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+
+  .enter_details_frm {
+    background: #FFFFFF;
+    box-shadow: 0px 10.79px 30.85px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 60px;
+  }
+
+  .checkout_details_frm h3, .enter_details_frm h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  .checkout_details_frm h6, .enter_details_frm h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  .checkout_details_frm .form-group, .enter_details_frm .form-group {
+    position: relative;
+  }
+  .checkout_details_frm .form-group img.icon, .enter_details_frm .form-group i {
+    position: absolute;
+    left: 8px;
+    top: 19px;
+    color: #003e1b;
+    font-size: 20px;
+  }
+  /* .form-control:focus-within {
+    border-color: #003e1b;
+  } */
+  .form-group .form-control:focus-within {
+    border: 2px solid #003E1B;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.1);
+}
+.frm-ftr{
+  color: #fff;
+}
+  .checkout_details_frm .form-control, .enter_details_frm .form-control {
+    background: #FFFFFF;
+    margin-bottom: 15px;
+    border: 1px solid #EAEAEA;
+    height: 56px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    padding-left: 40px;
+    color: #000000;
+  }
+  .payment_crads_wrap ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .payment_crads_wrap ul li a img {
+    width: 35px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    width: 35px;
+    height: 24px;
+    margin-left: 8px;
+  }
+  .enter_details_frm .form-group .radio-custom-label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .enter_details_frm .form-group .radio-custom:checked ~ label {
+    color: #000000;
+  }
+
+  .how_to_place_order {
+    padding: 60px 0px;
+      padding-bottom: 60px;
+    padding-bottom: 0;
+    background-image: url(../images/curve_bg.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 70%;
+  }
+  .place-order-img {
+    text-align: center;
+    position: relative;
+    height: 100%;
+  }
+  .place-order-img img {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+  }
+  .place-order-text h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 62px;
+    color: #003e1b;
+    margin-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+  }
+  .place-order-text h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #322C50;
+    opacity: 0.7;
+    margin-bottom: 25px;
+  }
+  .place-order-text .media {
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .place-order-text .media span {
+    background: #003e1b;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+  }
+  .place-order-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: rgba(50, 44, 80, 0.7);
+    width: 100%;
+  }

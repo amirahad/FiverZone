@@ -147,6 +147,12 @@
     .faq_block{
         padding: 28px 14px !important;
     }
+    .place-order-img img{
+        display: none;
+    }
+    .enter_details_sec {
+        background-image: none;
+    }
      
 }
 
@@ -281,6 +287,12 @@
     .faq_block{
         padding: 28px 14px !important;
     }
+    .place-order-img img{
+        display: none;
+    }
+    .enter_details_sec {
+        background-image: none;
+    }
     
 }
 
@@ -342,6 +354,12 @@
    
         font-size: 11px !important;
       }
+    .place-order-img img{
+        display: none;
+    }
+    .enter_details_sec {
+        background-image: none;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */

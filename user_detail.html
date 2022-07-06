@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="ind/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="ind/css/font-awesome.min.css" />
+    <!-- Default Css file end -->
+
+    <!-- Plugin Css file Start -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Plugin Css file end -->
+
+    <!-- Custom Css file Start -->
+    <link rel="stylesheet" href="ind/css/style.css" />
+    <!-- <link rel="stylesheet" href="ind/css/details.css" /> -->
+    <link rel="stylesheet" href="ind/css/responsive.css" />
+  </head>
+  <body>
+    <header class="header_section sticky-top" id="myHeader">
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a
+            class="navbar-brand animate__animated animate__zoomIn"
+            href="index"
+          >
+            <img
+              src="images/fiverZone2.png"
+              alt="logo"
+              class="img-fluid logo d-block"
+            />
+            <!-- <h3>FiverZone</h3> -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav dropdown show d-md-none d-sm-block">
+              <a
+                class="dropdown-toggle nav-link pl-3"
+                style="
+                  color: #003e1b;
+                  font-weight: bold;
+                  font-size: large;
+                  background-color: #f8f8f8; ;
+                "
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Catagories
+              </a>
+
+              <div
+                class="dropdown-menu animate__animated animate__fadeIn"
+                style="
+                  color: #003e1b;
+                  font-weight: bold;
+                  font-size: large;
+                  background-color: #f8f8f8;
+                "
+                aria-labelledby="dropdownMenuLink"
+              >
+                <div class="dropdown1 py-2">
+                  <a class="dropbtn pl-3"
+                    >Facebook <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                <div class="dropdown1 py-2">
+                  <a class="dropbtn pl-3"
+                    >Instagram <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                <div class="dropdown1 py-2">
+                  <a class="dropbtn pl-3"
+                    >Twitter <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                <div class="dropdown1 py-2">
+                  <a class="dropbtn pl-3"
+                    >YouTube <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                <div class="dropdown1 py-2">
+                  <a class="dropbtn pl-3"
+                    >Linkedin <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                <div class="dropdown1 py-3">
+                  <a class="dropbtn pl-3"
+                    >TikTok <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex nav-item ml-auto mb-md-3 mb-sm-0 left">
+              <div
+                class="mb-md-3 mb-sm-0 mr-3 mt-2 mt-lg-4 mt-md-4 mt-sm-2 txt animate__animated animate__fadeInDown"
+              >
+                <a href="#" class="any hvr-float-shadow">About Us</a>
+              </div>
+              <div
+                class="mb-md-3 mb-sm-0 mr-3 mt-2 mt-lg-4 mt-md-4 mt-sm-2 txt animate__animated animate__fadeInDown"
+              >
+                <a href="#" class="any hvr-float-shadow">Become a Seller</a>
+              </div>
+
+              <div
+                class="flex-row mt-0 mt-2 mt-md-3 mt-lg-0 mt-sm-2 animate__animated animate__heartBeat"
+              >
+                <a href="#" class="hvr-grow-shadow">Join Now</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div
+      class="container-fluid high d-none animate__animated animate__fadeInDown"
+    >
+      <div class="portions">
+        <ul
+          class="d-flex flex-row justify-content-around mt-1 align-items-center"
+        >
+          <div class="dropdown1">
+            <a class="dropbtn">Facebook <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown1">
+            <a class="dropbtn">Instagram <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown1">
+            <a class="dropbtn">Twitter <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown1">
+            <a class="dropbtn">YouTube <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown1">
+            <a class="dropbtn">Linkedin <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown1">
+            <a class="dropbtn">TikTok <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <section class="enter_details_sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="enter_details_frm">
+                <h3>Get Started</h3>
+                <h6>Account Information</h6>
+                
+                <form id="form_submit" method="post" action="checkout">
+                       
+                  <div class="form-group">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text"  name='username' id='username' required placeholder="Enter your Instagram Username" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" name="email" id="email" required placeholder="Your Email Address" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <i class="fa-brands fa-instagram"></i>   <input type="text" placeholder="250 High Quality Followers" disabled class="form-control">
+    
+                    <!--<select name="" id="">-->
+                    <!--  <option value="">$12.75</option>-->
+                    <!--  <option value="">$11.25</option>-->
+                    <!--  <option value="">$9.35</option>-->
+                    <!--</select>-->
+                  </div>
+                  <hr>
+    
+                  <h6 class="my-4">Payment Method</h6>
+    
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input class="radio-custom" type="radio" checked="checked" id="paypal_btn" name="payment_method" value="checkoutcom" >
+                        <label for="paypal_btn" class="radio-custom-label" >Credit / Debit Card</label>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="payment_crads_wrap">
+                        <ul>
+                          <li><a href="#"><img src="images/card-1.svg" alt="card" class="img-fluid"></a></li>
+                          <li><a href="#"><img src="images/card-2.svg" alt="card" class="img-fluid"></a></li>
+                          <li><a href="#"><img src="images/card-3.svg" alt="card" class="img-fluid"></a></li>
+                          <li><a href="#"><img src="images/card-4.svg" alt="card" class="img-fluid"></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input  id="paypal_btn1" name="payment_method" value="coinbase" class="radio-custom"  type="radio">
+                        <label for="paypal_btn1" class="radio-custom-label">Crypto <span style="font-size: 12px;">via Coinbase</span></label>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="payment_crads_wrap">
+                        <ul>
+                          <li><a href="#"><img src="images/eth.svg" alt="card" class="img-fluid"></a></li> 
+                        </ul>
+                      </div>
+                    </div>
+                  </div> 
+    
+                  <hr>
+                  <div class="form-group text-right">
+                    <button type="button" class="hvr-rectangle-out" onclick="msg_send();">
+                        Countinue To Checkout
+                      </button>
+                  </div>
+                  
+                </form>
+              </div>
+              <span class="frm-ftr">Note: Delivery of your order will start automatically after successful payment.  A order confirmation email will be sent with order number and details.</span>
+            </div>
+          </div>
+        </div>
+      </section> 
+
+      <section class="how_to_place_order">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="place-order-img">
+                <img src="images/place-hand.svg" alt="a" class="img-fluid imggss">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="place-order-text">
+                <h2>How to place an order?</h2>
+    
+                <h6>Placing orders on Viralyft is super simple- as we have designed a user-friendly checkout that allows you to select your account or media, securely pay and start your order in just a few quick steps!</h6>
+    
+                <div class="media">
+                  <span>01</span>
+                  <div class="media-body">  <p>Enter your <strong>username or URL; </strong> I.E: JustinBeiber, Facebook.com/JustinBeiber</p>
+                  </div>
+                </div>
+                
+                <div class="media">
+                  <span>02</span>
+                  <div class="media-body">
+                    <p> Enter your email address to recieve order details and confirmation 
+                    </p>
+                  </div>
+                </div>
+                <div class="media">
+                  <span>03</span>
+                  <div class="media-body">
+                    <p> Click the <strong>"Continue"</strong> button
+                    </p>
+                  </div>
+                </div>
+                <div class="media">
+                  <span>04</span>
+                  <div class="media-body">
+                    <p>If you are ordering <strong>"Likes"</strong> or <strong>"Views"</strong> please select the media or posts you wish to have services delivered on.
+                    </p>
+                  </div>
+                </div>
+                <div class="media">
+                  <span>05</span>
+                  <div class="media-body">
+                    <p> Review your order details and select <strong>"Continue to checkout"</strong>
+                    </p>
+                  </div>
+                </div>
+                <div class="media">
+                  <span>06</span>
+                  <div class="media-body">
+                    <p>  Fill in your payment details on our SSL secured payment gateway.
+                    </p>
+                  </div>
+                </div>
+                <div class="media">
+                  <span>07</span>
+                  <div class="media-body">
+                    <p>  WooHoo! You are done- sit back, relax and watch the magic happen!
+                    </p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-5">
+            <div class="widgts">
+              <h4>About</h4>
+              <ul>
+                <li><a href="refund-policy">Refund Policy</a></li>
+                <li><a href="terms-and-condition">Terms of use</a></li>
+                <li><a href="privacy-policy">privacy policy</a></li>
+                <li><a href="https://viralyft.com/blog/">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-7">
+            <div class="widgts">
+              <h4>Services</h4>
+              <ul>
+                <li>
+                  <a href="buy-instagram-followers">Buy Instagram Followers</a>
+                </li>
+                <li><a href="buy-youtube-views">Buy YouTube Views</a></li>
+                <li><a href="buy-facebook-likes">Buy Facebook Likes</a></li>
+                <li><a href="buy-spotify-plays">Buy Spotify Plays</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="widgts">
+              <h4>Why Us</h4>
+              <ul>
+                <li><a href="faq">FAQ'S</a></li>
+                <li><a href="">About</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="widgts">
+              <h4>Contact</h4>
+              <ul>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="widgts wl-card-list text-center align-items-center">
+              <img
+                src="images/fiverZone.png"
+                style="width: 125px; height: 60px"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="ftr_copy">
+              <p>
+                &copy; Copyright
+                <a href="#" style="color: #003e1b">EnvisionIT.</a> All Rights
+                Reserved 2022.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="ind/js/jquery.min.js"></script>
+    <script src="ind/js/popper.min.js"></script>
+    <script src="ind/js/bootstrap.min.js"></script>
+    <!-- <script src="ind/js/slick.min.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="ind/js/custom.js"></script>
+  </body>
+</html>
