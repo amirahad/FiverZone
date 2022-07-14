@@ -66,8 +66,8 @@ img {
   }
 
 .header_section .navbar-brand img {
-    width: 125px;
-    height:60px;
+  width: 150px;
+  height: 80px;
 }
 .hide{
     display: none;
@@ -1178,10 +1178,33 @@ section.footer {
 
 
   .enter_details_sec {
-    /* margin-top: 75px; */
+    background-image: url(../../images/enter_details_hero.png);
+  }
+  .logIn{
+    background-image: url(../../images/logIn.webp);
+    background-size: 40%;
+    padding: 180px 0 !important;
+  }
+  .logIn span a{
+    color: #003e1b;
+  }
+  .signUp{
+    padding: 180px 0 !important;
+  }
+  .signUp span a{
+    color: #003e1b;
+  }
+  .resetPassword{
+    background-image: url(../../images/resetPassword.webp);
+    padding: 180px 0 !important;
+  }
+  .signUp{
+    background-image: url(../../images/signUp.webp);
+    /* padding: 180px 0 !important; */
+  }
+  #details{
     padding: 60px 0px;
     background-color: #003e1b;
-    background-image: url(../../images/enter_details_hero.png);
     background-size: 55%;
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -1335,4 +1358,73 @@ section.footer {
     letter-spacing: 0.02em;
     color: rgba(50, 44, 80, 0.7);
     width: 100%;
+  }
+
+  /* //404 page */
+
+
+  #notfound {
+    position: relative;
+    height: 100vh;
+    background-color: #003E1B;
+  }
+  #notfound .notfound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .notfound {
+    max-width: 520px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.4;
+  }
+  .notfound .notfound-404 {
+    height: 190px;
+  }
+  .notfound .notfound-404 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 146px;
+    font-weight: 700;
+    margin: 0px;
+    color: #ffffff;
+  }
+  .notfound .notfound-404 h1 > span {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-image: url('../../images/emoji.png');
+    background-size: cover;
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+    z-index: -1;
+  }
+  .notfound h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .notfound p {
+    font-family: 'Montserrat', sans-serif;
+    color: #787878;
+    font-weight: 300;
+  }
+  .notfound a {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    padding: 12px 30px;
+    font-weight: 700;
+    background-color: #fefefe;
+    color: #003e1b;
+    border-radius: 40px;
+    text-decoration: none;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
   }

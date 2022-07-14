@@ -150,7 +150,13 @@
     .place-order-img img{
         display: none;
     }
-    .enter_details_sec {
+    .enter_details_sec{
+        background-image: none;
+    }
+    .logIn{
+        background-image: none;
+    }
+    .resetPassword{
         background-image: none;
     }
      
@@ -290,7 +296,13 @@
     .place-order-img img{
         display: none;
     }
-    .enter_details_sec {
+    .enter_details_sec{
+        background-image: none;
+    }
+    .logIn{
+        background-image: none;
+    }
+    .resetPassword{
         background-image: none;
     }
     
@@ -357,7 +369,13 @@
     .place-order-img img{
         display: none;
     }
-    .enter_details_sec {
+    .enter_details_sec{
+        background-image: none;
+    }
+    .logIn{
+        background-image: none;
+    }
+    .resetPassword{
         background-image: none;
     }
 }
