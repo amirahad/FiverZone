@@ -1,0 +1,128 @@
+.checkout{
+    padding: 60px 0px;
+    margin-top: 75px;
+    background-color: #003E1B;
+    background-image: url(../../images/payment.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100%;
+}
+.eightcol {
+    width: 55%;
+    z-index: 999;
+  }
+  @media(min-width: 320px) and (max-width: 575px) {
+    .eightcol{
+        width: 90%;
+    }
+    .checkout{
+        background-image: none;
+    }
+  }
+  .column {
+    position: relative;
+    float: left;
+    min-height: 1px;
+    margin-right: 3.8%;
+    background-color: #fff;
+    margin: 20px 0;
+  }
+  img, object, embed {
+    max-width: 100%;
+    height: auto;
+    border: none;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+  body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+  }
+  .back{
+    background-color: #003E1B;
+    font-size: 18px;
+  }
+  .back a{
+    color: #fff;
+  }
+  .back a:hover{
+    color: #11743c;
+  }
+  .coupon a {
+    color: #003E1B;
+    text-decoration: none;
+    line-height: inherit;
+    outline: none;
+  }
+  .back a:hover,.coupon a:hover {
+    color: #11743c;
+  }
+  p {
+    font-family: inherit;
+    font-weight: normal;
+    line-height: inherit;
+    margin-bottom: 1em;
+    color: #777;
+  }
+  button, input[type="submit"], input[type="button"], .element-button {
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding: 0.2em 10px .3em 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #fff !important;
+    border: 2px solid #003E1B;
+    background: #003E1B;
+  }
+  #proceed_to_payment{
+    color: #fff !important;
+    border: 2px solid #003E1B;
+    background: #003E1B;
+  }
+  #proceed_to_payment:hover{
+    color:#003E1B !important;
+    background-color: #fff;
+  }
+  
+element {
+    height: 40px;
+    font-size: 13px;
+}
+input[type="button"].btn-block, input[type="reset"].btn-block, input[type="submit"].btn-block {
+    width: 100%;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #333;
+    text-decoration: none;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+/* button, input[type="submit"], input[type="button"], .element-button {
+
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding: 0.2em 10px .3em 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #fff !important;
+    border: 2px solid #4e8ed6;
+    background: #4e8ed6;
+
+}
+button, input[type="submit"], input[type="button"] {
+
+    border: 0;
+    margin: 0;
+    outline: none;
+    background: none;
+    cursor: pointer;
+
+} */
