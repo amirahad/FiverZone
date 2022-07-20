@@ -1428,3 +1428,46 @@ section.footer {
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
   }
+
+
+  /* Profile Page */
+
+
+
+  .profile{
+    background-color: #003E1B;
+  }
+  .profile h5{
+    color: #003E1B;
+  }
+  .profile .text-bold{
+    color: #003E1B  ;
+    font-weight: bold;
+  }
+  .profile .order h3{
+    color: #fff;
+    font-weight: bold;
+  }
+  .profile .avatar{
+    width:200px;
+    height:200px;
+  }
+  .profile input[type="file"] {
+    display: none;
+}
+.profile .custom-file-upload {
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #003E1B;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.profile .personal-info h3{
+  color: #003E1B;
+  font-weight: bold;
+}
+.profile .personal-info label{
+  color: #003E1B;
+  font-weight: bold;
+}

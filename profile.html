@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="ind/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="ind/css/font-awesome.min.css" />
+    <!-- Default Css file end -->
+
+    <!-- Plugin Css file Start -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Plugin Css file end -->
+
+    <!-- Custom Css file Start -->
+    <link rel="stylesheet" href="ind/css/style.css" />
+    <!-- <link rel="stylesheet" href="ind/css/details.css" /> -->
+    <link rel="stylesheet" href="ind/css/responsive.css" />
+  </head>
+  <body>
+    <header class="header_section sticky-top" id="myHeader">
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a
+            class="navbar-brand animate__animated animate__zoomIn"
+            href="index"
+          >
+            <img
+              src="images/fiverZone2.png"
+              alt="logo"
+              class="img-fluid logo d-block"
+            />
+            <!-- <h3>FiverZone</h3> -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav dropdown show d-md-none d-sm-block">
+              <a
+                class="dropdown-toggle nav-link pl-3"
+                style="
+                  color: #003e1b;
+                  font-weight: bold;
+                  font-size: large;
+                  background-color: #f8f8f8; ;
+                "
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Catagories
+              </a>
+
+              <div
+                class="dropdown-menu animate__animated animate__fadeIn"
+                style="
+                  color: #003e1b;
+                  font-weight: bold;
+                  font-size: large;
+                  background-color: #f8f8f8;
+                "
+                aria-labelledby="dropdownMenuLink"
+              >
+                <div class="dropdown1 py-2">
+                  <a class="dropbtn pl-3"
+                    >Facebook <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                <div class="dropdown1 py-2">
+                  <a class="dropbtn pl-3"
+                    >Instagram <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                <div class="dropdown1 py-2">
+                  <a class="dropbtn pl-3"
+                    >Twitter <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                <div class="dropdown1 py-2">
+                  <a class="dropbtn pl-3"
+                    >YouTube <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                <div class="dropdown1 py-2">
+                  <a class="dropbtn pl-3"
+                    >Linkedin <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                <div class="dropdown1 py-3">
+                  <a class="dropbtn pl-3"
+                    >TikTok <i class="fa fa-caret-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-content animate__animated animate__fadeIn"
+                  >
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex nav-item ml-auto mb-md-3 mb-sm-0 left">
+              <div
+                class="mb-md-3 mb-sm-0 mr-3 mt-2 mt-lg-4 mt-md-4 mt-sm-2 txt animate__animated animate__fadeInDown"
+              >
+                <a href="#" class="any hvr-float-shadow">About Us</a>
+              </div>
+              <div
+                class="mb-md-3 mb-sm-0 mr-3 mt-2 mt-lg-4 mt-md-4 mt-sm-2 txt animate__animated animate__fadeInDown"
+              >
+                <a href="#" class="any hvr-float-shadow">Become a Seller</a>
+              </div>
+
+              <div
+                class="flex-row mt-0 mt-2 mt-md-3 mt-lg-0 mt-sm-2 animate__animated animate__heartBeat"
+              >
+                <a href="#" class="hvr-grow-shadow">Join Now</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div
+      class="container-fluid high d-none animate__animated animate__fadeInDown"
+    >
+      <div class="portions">
+        <ul
+          class="d-flex flex-row justify-content-around mt-1 align-items-center"
+        >
+          <div class="dropdown1">
+            <a class="dropbtn">Facebook <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown1">
+            <a class="dropbtn">Instagram <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown1">
+            <a class="dropbtn">Twitter <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown1">
+            <a class="dropbtn">YouTube <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown1">
+            <a class="dropbtn">Linkedin <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown1">
+            <a class="dropbtn">TikTok <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content animate__animated animate__fadeIn">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    
+    
+
+    <section class="profile">
+        <div class="container py-5">
+          
+      
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card mb-4">
+                <div class="card-body text-center">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava6.webp" alt="avatar"
+                    class="rounded-circle img-fluid" style="width: 150px;">
+                  <h5 class="my-3">Amir Ahad</h5>
+                  <p class="text-muted mb-1">abcd@gmail.com</p>
+                  <p class="text-muted mb-4">Lorem ipsum dolor sit amet.</p>
+                  <div class="d-flex justify-content-center mb-2">
+                    <a href="edit_profile.html"><button type="button" class="hvr-grow-shadow">Edit Profile</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-8">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0 text-bold">User Name</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0">Amir Ahad</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0 text-bold">Email</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0">abcd@gmail.com</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0 text-bold">Password</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0">*********</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0 text-bold">Mobile</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0">(098) 765-4321</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0 text-bold">Address</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center my-5 order">
+            <h3>Your Order History</h3>
+          </div>
+          <div class="row justify-content-center my-5">
+            <div class="col-sm-12" style="overflow-x:auto;">
+                <table class="table align-middle mb-0 bg-white" >
+                    <thead class="">
+                      <tr>
+                        <th class="text-bold">Title</th>
+                        <th class="text-bold">Link</th>
+                        <th class="text-bold">Status</th>
+                        <th class="text-bold">Price</th>
+                        <th class="text-bold">Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <div class="ms-3">
+                              <p class="text-bold mb-1">Facebook</p>
+                              <p class="text-muted mb-0">1000 Page Like</p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="fw-normal mb-1">https://www.facebook.com/Cyber71Community</p>
+                          <!-- <p class="text-muted mb-0">IT department</p> -->
+                        </td>
+                        <td>
+                          <span class="badge rounded-pill d-inline">Delivered</span>
+                        </td>
+                        <td>25$</td>
+                        <td>
+                          <button type="button" class="btn btn-link btn-sm btn-rounded">
+                            Edit
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="d-flex align-items-center">
+                              <div class="ms-3">
+                                <p class="text-bold mb-1">YouTube</p>
+                                <p class="text-muted mb-0">1000 subscribers</p>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <p class="fw-normal mb-1">https://www.facebook.com/Cyber71Community</p>
+                            
+                          </td>
+                        <td>
+                          <span class="badge rounded-pill d-inline"
+                                >Cancelled</span
+                            >
+                        </td>
+                        <td>1000$</td>
+                        <td>
+                          <button
+                                  type="button"
+                                  class="btn btn-link btn-rounded btn-sm fw-bold"
+                                  data-mdb-ripple-color="dark"
+                                  >
+                            Edit
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <div class="ms-3">
+                              <p class="text-bold mb-1">YouTube</p>
+                              <p class="text-muted mb-0">1000 subscribers</p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="fw-normal mb-1">https://www.facebook.com/Cyber71Community</p>
+                          
+                        </td>
+                        <td>
+                          <span class="badge rounded-pill d-inline">Processing</span>
+                        </td>
+                        <td>43$</td>
+                        <td>
+                          <button
+                                  type="button"
+                                  class="btn btn-link btn-rounded btn-sm fw-bold"
+                                  data-mdb-ripple-color="dark"
+                                  >
+                            Edit
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+    
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-5">
+            <div class="widgts">
+              <h4>About</h4>
+              <ul>
+                <li><a href="refund-policy">Refund Policy</a></li>
+                <li><a href="terms-and-condition">Terms of use</a></li>
+                <li><a href="privacy-policy">privacy policy</a></li>
+                <li><a href="https://viralyft.com/blog/">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-7">
+            <div class="widgts">
+              <h4>Services</h4>
+              <ul>
+                <li>
+                  <a href="buy-instagram-followers">Buy Instagram Followers</a>
+                </li>
+                <li><a href="buy-youtube-views">Buy YouTube Views</a></li>
+                <li><a href="buy-facebook-likes">Buy Facebook Likes</a></li>
+                <li><a href="buy-spotify-plays">Buy Spotify Plays</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="widgts">
+              <h4>Why Us</h4>
+              <ul>
+                <li><a href="faq">FAQ'S</a></li>
+                <li><a href="">About</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="widgts">
+              <h4>Contact</h4>
+              <ul>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="widgts wl-card-list text-center align-items-center">
+              <img
+                src="images/fiverZone.png"
+                style="  width: 184px;
+                height: 110px;"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="ftr_copy">
+              <p>
+                &copy; Copyright
+                <a href="#" style="color: #003e1b">EnvisionIT.</a> All Rights
+                Reserved 2022.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <script>
+        let x = document.querySelectorAll(".badge");
+      
+        for (let i = 0; i < x.length; i++) {
+            if(x[i].innerHTML === "Delivered"){
+            x[i].className += (" badge-success");
+        }
+        else if(x[i].innerHTML === "Cancelled"){
+            x[i].className += (" badge-danger");
+        }
+        else if(x[i].innerHTML === "Processing"){
+            x[i].className += (" badge-warning")
+        }
+        }
+    </script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="ind/js/jquery.min.js"></script>
+    <script src="ind/js/popper.min.js"></script>
+    <script src="ind/js/bootstrap.min.js"></script>
+    <!-- <script src="ind/js/slick.min.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="ind/js/custom.js"></script>
+  </body>
+</html>
